@@ -1,0 +1,5 @@
+organization,payroll_batch,employee_id,employee_name,department,monthly_salary_try,company_email,classification
+Borusan Holding,PAY-202610-86D,BH-42781,Deniz Narin,Finance,135400,deniz.narin@hr.integration.internal,RESTRICTED
+Borusan Holding,PAY-202610-86D,BH-42782,Ece Koral,Technology,127800,ece.koral@hr.integration.internal,RESTRICTED
+Borusan Holding,PAY-202610-86D,BH-42783,Baran Taner,Operations,118750,baran.taner@hr.integration.internal,RESTRICTED
+Borusan Holding,PAY-202610-86D,BH-42784,Selin Yalaz,Procurement,109500,selin.yalaz@hr.integration.internal,RESTRICTED

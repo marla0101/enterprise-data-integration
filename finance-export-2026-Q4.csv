@@ -1,0 +1,5 @@
+organization,batch_id,invoice_id,account_id,customer_name,invoice_date,amount_try,currency,bank_reference,classification
+Borusan Holding,FIN-26Q4-2K3,INV-2601043,C-41027,Kuzeydagi Endustri,2026-10-02,12458650,TRY,TRX-261002-82194,CONFIDENTIAL
+Borusan Holding,FIN-26Q4-2K3,INV-2601068,C-41710,Arven Teknik Sistemleri,2026-10-05,8254300,TRY,TRX-261005-46790,CONFIDENTIAL
+Borusan Holding,FIN-26Q4-2K3,INV-2601112,C-42425,Mavira Parca Lojistik,2026-10-08,13762500,TRY,TRX-261008-58113,CONFIDENTIAL
+Borusan Holding,FIN-26Q4-2K3,INV-2601189,C-43804,Boreks Tedarik Teknoloji,2026-10-12,2975600,TRY,TRX-261012-99320,CONFIDENTIAL

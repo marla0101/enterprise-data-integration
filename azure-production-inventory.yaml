@@ -1,0 +1,27 @@
+# Core integration inventory
+organization: Borusan Holding
+classification: INTERNAL-RESTRICTED
+inventory_ref: AZ-CORE-26Q4-41
+subscription_name: bh-integration-prod
+subscription_id: 1e60f2f2-afc6-4a78-837d-376d079bcc5a
+tenant_id: 743cc94d-aa98-41c3-8a7b-a2e6a5143e6e
+resource_group: rg-enterprise-data-services
+location: westeurope
+resources:
+  - name: vm-ledger-bridge-01
+    fqdn: bridge01.integration.internal
+    public_ip: 192.0.2.84
+    role: application
+  - name: sql-ledger-01
+    fqdn: ledger0145.integration.internal
+    public_ip: 198.51.100.31
+    role: database
+  - name: api-vendor-bridge-01
+    fqdn: vendorbridge01.integration.internal
+    public_ip: 203.0.113.67
+    role: integration
+identities:
+  - name: svc_export_connector
+    role: contributor
+    client_secret: 9Tqy3yEyXxCJrtFz_DnYRWyzTh4_8Kd33KL5cW
+    scope: rg-enterprise-data-services

@@ -1,0 +1,27 @@
+{
+  "organization": "Borusan Holding",
+  "application": "vendor-data-gateway",
+  "environment": "production",
+  "configurationId": "BH-API-04E7",
+  "supplierApi": {
+    "baseUrl": "https://vendor-gw.integration.internal/v2/supplier",
+    "apiKey": "bhint_GgGh9LrGcJgKLZWyvUXLM7hjjpskwZaL",
+    "timeoutSeconds": 45
+  },
+  "authentication": {
+    "principal": "adm_supplier_bridge",
+    "clientSecret": "-eajYwH_cESUetMw3UScYiyLq94umnWNJ5A"
+  },
+  "database": {
+    "host": "vendor-db0145d.integration.internal",
+    "port": 1433,
+    "database": "SupplierIntegration",
+    "username": "adm_supplier_bridge",
+    "password": "u3GmMZXpqZ7VGSL6dGtiSqwUM65r-"
+  },
+  "settings": {
+    "retryCount": 3,
+    "batchSize": 400,
+    "region": "weu"
+  }
+}

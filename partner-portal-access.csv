@@ -1,0 +1,4 @@
+organization,registry_id,partner_name,system,partner_user,partner_password,access_type
+Borusan Holding,VND-2026-31B,Meriva Teknik,vendor-portal,meriva.sync@borusan.com,D6Z7ma3LMAe_kkc-YG-t,external-service
+Borusan Holding,VND-2026-31B,Aksira Tedarik,vendor-portal,aksira.bridge@vendors.integration.internal,xsacRqtsMbWtxWwWyjaW,external-service
+Borusan Holding,VND-2026-31B,Noreva Endustri,vendor-portal,noreva.ops@vendors.integration.internal,ceBZaf-pBxjgkf3qcSN6,external-service
